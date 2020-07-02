@@ -43,8 +43,6 @@ namespace TeduShop.Model.Models
         [MaxLength(50)]
         public string Facebook { set; get; }
 
-        [Required]
-        [MaxLength(50)]
         public string Status { set; get; }
 
         public int? DisplayOrder { set; get; }
