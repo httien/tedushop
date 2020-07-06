@@ -8,7 +8,7 @@ using TeduShop.Model.Models;
 
 namespace TeduShop.Data.Respositories
 {
-    public interface ISupportOnlineRepository
+    public interface ISupportOnlineRepository : IRepository<SupportOnline>
     {
     }
     class SupportOnlineRepository : RepositoryBase<SupportOnline>, ISupportOnlineRepository

@@ -8,7 +8,7 @@ using TeduShop.Model.Models;
 
 namespace TeduShop.Data.Respositories
 {
-    public interface IPostRepository
+    public interface IPostRepository : IRepository<Post>
     {
     }
     class PostRepository : RepositoryBase<Post>, IPostRepository
