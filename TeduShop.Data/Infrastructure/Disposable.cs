@@ -15,7 +15,7 @@ namespace TeduShop.Data.Infrastructure
             Dispose(false);
         }
 
-        private void Dispose()
+        public void Dispose()
         {
             Dispose(true);
             GC.SuppressFinalize(this);
@@ -34,11 +34,6 @@ namespace TeduShop.Data.Infrastructure
         protected virtual void DisposeCore()
         {
 
-        }
-
-        void IDisposable.Dispose()
-        {
-            throw new NotImplementedException();
         }
     }
 }
