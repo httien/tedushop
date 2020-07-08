@@ -9,7 +9,7 @@ namespace TeduShop.Model.Abstract
 {
     public abstract class Auditable: IAuditable
     {
-        public DateTime? CraetedDate { set; get; }
+        public DateTime? CreatedDate { set; get; }
 
         [MaxLength(256)]
         public string CreatedBy { set; get; }
@@ -23,7 +23,7 @@ namespace TeduShop.Model.Abstract
         public string MetaKeyword { set; get; }
 
         [MaxLength(256)]
-        public string MetaDesciption { set; get; }
+        public string MetaDescription { set; get; }
 
         public bool Status { set; get; }
     }
